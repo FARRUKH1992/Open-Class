@@ -1,52 +1,75 @@
-Pi_value = 3.14
-userAge = 25
+weather = "sunny"
+
+if weather == "sunny":
+    print("Wear sunglasses!")
+else:
+    print("Take an umbrella!")
+
+
+
+PI_VALUE = 3.14
+user_age = 25
 user_location = "New York"
-MAXLIMIT = 1000
+MAX_LIMIT = 1000
 
-
-# Define initial amount and yearly interest rate
-initial_amount = 10000  # Example: $10,000
-interest_rate = 0.07    # 7% interest rate
+# Define the initial amount and interest rate
+initial_amount = 10000  # Example initial amount in dollars
+interest_rate = 0.07  # Example interest rate (7%)
 
 # Calculate the total amount after one year
 total_amount = initial_amount * (1 + interest_rate)
 
-# Print the result
-print("Total amount after one year: ${:.2f}".format(total_amount))
+# Print the total amount
+print(f"The total amount after one year is: ${total_amount:.2f}")
 
 
-# Define prices of the items
-price_bread = 2.50      # Example price for bread
+# Define the prices of the items
+price_bread = 2.50  # Example price for bread
 price_peanut_butter = 3.75  # Example price for peanut butter
-price_jelly = 1.99      # Example price for jelly
+price_jelly = 1.99  # Example price for jelly
 
 # Calculate the total cost
 total_cost = price_bread + price_peanut_butter + price_jelly
 
-# Print the result
-print("Total cost of bread, peanut butter, and jelly: ${:.2f}".format(total_cost))
+# Print the total cost
+print(f"The total cost of the items is: ${total_cost:.2f}")
 
 
 
-# Define the variables
-Pi_value = 3.14
-userAge = 25
+weather = "sunny"
+
+if weather == "sunny":
+    print("Wear sunglasses!")
+else:
+    print("Take an umbrella!")
+
+# Task 2: Python Naming Convention Practice
+PI_VALUE = 3.14
+user_age = 25
 user_location = "New York"
-MAXLIMIT = 1000
+MAX_LIMIT = 1000
 
-# Print statements using the variables
-print(f"Pi is approximately {Pi_value}.")
-print(f"The user is {userAge} years old and lives in {user_location}.")
-print(f"The maximum limit is set to {MAXLIMIT}.")
+# Print variables to ensure they are correctly named
+print(f"PI_VALUE: {PI_VALUE}")
+print(f"user_age: {user_age}")
+print(f"user_location: {user_location}")
+print(f"MAX_LIMIT: {MAX_LIMIT}")
 
-# Calculate the area of a circle using Pi_value
-radius = 5
-area_of_circle = Pi_value * radius ** 2
-print(f"The area of a circle with radius {radius} is {area_of_circle:.2f}.")
+# Task 3: Arithmetic Operations in Daily Life
 
-# Check if a value exceeds the MAXLIMIT
-value = 1500
-if value > MAXLIMIT:
-    print(f"The value {value} exceeds the maximum limit of {MAXLIMIT}.")
+# Grocery Store Math
+price_bread = 2.50
+price_peanut_butter = 3.75
+price_jelly = 1.99
+
+total_cost = price_bread + price_peanut_butter + price_jelly
+print(f"The total cost of the items is: ${total_cost:.2f}")
+
+# Bank Interest Calculation
+initial_amount = 10000
+interest_rate = 0.07
+
+total_amount = initial_amount * (1 + interest_rate)
+print(f"The total amount after one year is: ${total_amount:.2f}")
 else:
     print(f"The value {value} is within the maximum limit.")
